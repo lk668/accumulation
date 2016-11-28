@@ -6,6 +6,7 @@
 - set_controller.sh:设置ovs交换机控制器
 - stp_setup.sh:设置stp,设为true,避免环路风暴,设为false(受控制器控制时)
 - restart-sogou.sh:ubuntu下重启sogou输入法
+- signin.sh:登录远程服务器脚本
 
 #### Python脚本
 
