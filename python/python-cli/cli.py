@@ -20,6 +20,11 @@ def _require_sudo():
         sys.exit(1)
 
 
+def _handler(signal, frame):
+    print()
+    sys.exit(0)
+
+
 def _enable_log():
     logging.basicConfig(level=logging.DEBUG,
                         format='%(asctime)s %(name)-12s %(levelname)-8s %('
@@ -31,6 +36,7 @@ def _enable_log():
 def main():
     _require_sudo()
     _enable_log()
+    signal.signal(signal.SIGINT, _handler)
     cli = [Cliexample()]
     parser = argparse.ArgumentParser(description='Test CLI')
     subparsers = parser.add_subparsers(help='sub-command help',
