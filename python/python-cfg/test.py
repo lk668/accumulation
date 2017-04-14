@@ -4,5 +4,7 @@
 from utils import cfg
 
 
-print cfg.get('DEFAULT', 'username')
-print cfg.get('PASSWORD', 'password')
+if cfg.has_option('DEFAULT', 'username'):
+    print cfg.get('DEFAULT', 'username')
+if cfg.has_option('PASSWORD', 'password'):
+    print cfg.get('PASSWORD', 'password')
