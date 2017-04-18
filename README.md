@@ -12,8 +12,10 @@
 
 #### Python脚本
 
-- python-rabbit:基于pika包,实现python下的RabbitMQ通信
-- python-cli:基于argparse实现python的CLI
-- python-command-cli:python全局CLI，将内部文件拷贝至/usr/local/bin目录下即可
-- python-cfg:python全局设置方式
-- python-signal:signal包的使用讲解
+- 1-rabbit:基于pika包,实现python下的RabbitMQ通信
+- 2-cli:基于argparse实现python的CLI
+- 3-command-cli:python全局CLI，将内部文件拷贝至/usr/local/bin目录下即可
+- 4-cfg:python全局设置方式
+- 5-signal:signal包的使用讲解
+- 6-log:Python日志输出
+- 7-table:Python表格输出
