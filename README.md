@@ -20,3 +20,4 @@
 - 6-log:Python日志输出
 - 7-table:Python表格输出
 - 8-confirm:Python CLI确认操作[y/n]
+- 9-getpass:Python命令行输入密码，代码获取输入。输入的数据在命令行不可见
