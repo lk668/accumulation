@@ -19,3 +19,4 @@
 - 5-signal:signal包的使用讲解
 - 6-log:Python日志输出
 - 7-table:Python表格输出
+- 8-confirm:Python CLI确认操作[y/n]
