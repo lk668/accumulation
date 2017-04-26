@@ -22,3 +22,8 @@
 - 8-confirm:Python CLI确认操作[y/n]
 - 9-getpass:Python命令行输入密码，代码获取输入。输入的数据在命令行不可见
 - 10-getdiskspace:Python获取磁盘总容量和可用容量
+
+
+#### SQL脚本
+
+- create.sql:利用sql脚本进行数据表格的创建和数据的插入
