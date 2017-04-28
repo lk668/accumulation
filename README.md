@@ -30,3 +30,4 @@
 
 #### Java脚本
 - multi-thread:Java实现多线程
+- generic:Java实现泛型

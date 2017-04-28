@@ -12,3 +12,8 @@
 - join():线程的强行运行
 - Thread.sleep():线程的休眠
 - Thread.yield():线程的礼让(static方法)
+
+#### Java线程的同步
+
+> Java线程的同步是为了实现资源共享，只需要在函数前面添加个关键字synchronized。
+> 如果是同步代码块，需要synchronized(形参){代码块(代码块包含需要同步的变量)}
