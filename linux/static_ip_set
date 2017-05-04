@@ -1,0 +1,11 @@
+1. vim /etc/network/interfaces
+2. add the following
+
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.154.9.xxx
+netmask 255.255.254.0
+gateway 10.154.9.253

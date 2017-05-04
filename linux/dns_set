@@ -1,0 +1,4 @@
+1. sudo vim /etc/resolv.conf
+2. add the following
+
+nameserver 8.8.8.8(or your local dns server ip)
