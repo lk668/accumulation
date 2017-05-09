@@ -32,6 +32,7 @@
 - signin.sh:登录远程服务器脚本
 - stp_setup.sh:设置stp,设为true,避免环路风暴,设为false(受控制器控制时)
 - ubuntu.sh:ubuntu下常用命令
+- command.sh:shell常用的代码指令
 
 #### SQL脚本
 
